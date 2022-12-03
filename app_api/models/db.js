@@ -45,5 +45,7 @@ process.on('SIGTERM', () => {
 
 connect();
 
+mongoose.set('debug', true);
+
 // bring in the mongoose schema
 require('./travlr');
