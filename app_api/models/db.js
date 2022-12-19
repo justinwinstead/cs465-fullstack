@@ -49,3 +49,4 @@ mongoose.set('debug', true);
 
 // bring in the mongoose schema
 require('./travlr');
+require('./user')
